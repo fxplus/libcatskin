@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+#(c)#=====================================================================
+#(c)#
+#(c)#       Copyright 2007 ExLibris Group
+#(c)#                       All Rights Reserved
+#(c)#
+#(c)#=====================================================================
+-->
+
+<!--
+**          Product : WebVoyage : displaycfg
+**          Version : 7.0
+**          Created : 17-OCT-2007
+**      Orig Author : David Sellers
+**    Last Modified : 19-OCT-2010
+** Last Modified By : Jamie
+
+--> 
+
+<display>
+
+	<titleTags>
+		<displayTag field="130" indicator1="X" indicator2="X" subfield="aplskf"/>
+		<displayTag field="240" indicator1="X" indicator2="X" subfield="aplskf"/>
+		<displayTag field="245" indicator1="X" indicator2="X" subfield="ab"/>
+	</titleTags>
+	
+	<displayTags label="Holdings Information: " notFound="No Data Available--Ask at Reference">
+		<displayTag field="9000" />	</displayTags>
+
+</display>

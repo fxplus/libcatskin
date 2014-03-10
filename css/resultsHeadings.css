@@ -1,0 +1,98 @@
+/*
+#(c)#=====================================================================
+#(c)#
+#(c)#       Copyright 2007-2011 Ex Libris (USA) Inc.
+#(c)#                       All Rights Reserved
+#(c)#
+#(c)#=====================================================================
+
+**          Product : WebVoyage :: resultsHeadings
+**          Version : 7.2.0
+**          Created : 15-OCT-2007
+**      Orig Author : David Sellers
+**    Last Modified : 21-AUG-2009
+** Last Modified By : Mel Pemble
+*/
+
+
+
+/* Browse Bar Override*/
+#browseHeaderbottom .browseHeader, #browseHeaderTop .browseHeader
+{
+    background-image: none;
+    background-repeat: no-repeat;
+}
+/* Browse Bar Override*/
+
+
+
+
+
+/* Results Override */
+.oddRow, .evenRow
+{
+    background-image: none;
+    background-repeat: no-repeat;
+}
+
+.resultListTextCell
+{
+  width: 100%;
+}
+
+/* Results Override */
+
+
+
+
+/* Results Headings */
+.resultHeading a
+{
+   FONT-WEIGHT: bold;
+}
+
+/* Results Titles and Type */
+.resultTitle, .resultType
+{
+   margin: 5px 0px 0px 40px;
+   padding: 0px 0px 0px 0px;
+}
+
+.resultTitleLabel, .resultTypeLabel
+{
+   FONT-WEIGHT: bold;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 10px 0px 0px;
+   float: left;
+}
+
+.resultTitleValue, .resultTypeValue
+{
+   overflow-y: hidden;
+   overflow-x: hidden;
+}
+/* Results Titles and Type */
+
+/* Results Headings */
+.resultReferance, .resultAuthority
+{
+   margin: 5px 0px 0px 40px;
+   padding: 0px 0px 0px 0px;
+}
+
+.resultReferanceLabel, .resultAuthorityLabel
+{
+   margin: 0px 0px 0px 0px;
+   padding: 0px 10px 0px 0px;
+   float: left;
+}
+
+.resultReferanceValue, .resultAuthorityValue
+{
+   overflow-y: hidden;
+   overflow-x: hidden;
+}
+/* Results Headings */
+
+
+

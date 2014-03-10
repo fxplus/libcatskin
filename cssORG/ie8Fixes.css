@@ -1,0 +1,41 @@
+/*
+#(c)#=====================================================================
+#(c)#
+#(c)#       Copyright 2007-2011 Ex Libris (USA) Inc.
+#(c)#                       All Rights Reserved
+#(c)#
+#(c)#=====================================================================
+
+**          Product : WebVoyage :: ie8Fixes
+**          Version : 7.2.0
+**          Created : 26-MAY-2009
+**      Orig Author : Mel Pemble
+**    Last Modified : 11-SEP-2009
+** Last Modified By : Mel Pemble
+*/
+
+fieldset
+{
+   position: relative;
+   padding-top:20px;
+}
+
+legend
+{
+   position: absolute;
+   top: -11px;
+   left: 5px;
+}
+
+.requestForm
+{
+   padding-top:25px;
+}
+
+.requestSubmitButton
+{
+   padding: 1px 5px;
+   text-decoration:none;
+   display:inline;
+}
+

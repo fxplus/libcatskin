@@ -1,0 +1,33 @@
+/*********************** Timeout Message ***********************/
+#tcc_timeout_container {
+	position:absolute;
+	top:200px;
+	left:200px;
+	display:none;
+	width:300px;
+	border:2px solid blue;
+	background-color:yellow;
+	font: 12px sans-serif;
+	opacity: .80; /* Standard */
+	filter: alpha(opacity=80); /* MSIE */
+	z-index:5;
+}
+
+#tcc_timeout_title {
+	background-color:blue;
+	color:yellow;
+	text-align:center;
+	cursor:move;
+}
+
+#tcc_timeout_message{
+	text-align:center;
+}
+
+#tcc_timeout_page_refresh {
+	float:left;
+}
+
+#tcc_timeout_session_refresh {
+	float:right;
+}

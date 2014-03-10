@@ -1,0 +1,67 @@
+/*********************** Timeout Message ***********************/
+#tcc_timeout_container {
+	position:absolute;
+	width:300px;
+	height:120px;
+	/* position set in javascript function call in footer.xsl */
+	
+	border:2px solid #152e4c;
+	background-color:#FFC;
+	font: 12px sans-serif;
+	opacity: .85; /* Standard */
+	filter: alpha(opacity=85); /* MSIE */
+	
+	z-index:5;
+	display:none;
+}
+
+#tcc_timeout_title {
+	background-color:#152e4c;
+	color:#FFC;
+	text-align:center;
+	cursor:move;
+	height:30px;
+	font-weight:bold;
+	padding-top:5px;
+}
+
+#tcc_timeout_message{
+	text-align:center;
+	height:30px;
+	font-weight:bold;
+	border-bottom:1px solid #152e4c;
+	padding-top:10px;
+}
+
+#tcc_timeout_page_refresh {
+	float:left;
+	padding:10px 1px 2px 10px;
+}
+
+#tcc_timeout_session_refresh {
+	float:right;
+	padding:10px 10px 2px 1px;
+}
+
+#tcc_timeout_page_refresh a, #tcc_timeout_session_refresh a {
+	background-color: #e9daaa; 
+	color: #000; 
+	font-weight:bold;
+	border-style:outset;
+	border-width:2px;
+	border-top-color: #CECECE;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #CECECE;
+}
+
+#tcc_timeout_page_refresh a:hover, #tcc_timeout_session_refresh a:hover {
+	border-style:inset;
+	text-decoration:none;
+	background-color: #ffc;
+	border-top-color: #000;
+	border-right-color: #CECECE;
+	border-bottom-color: #CECECE;
+	border-left-color: #000;
+}
+

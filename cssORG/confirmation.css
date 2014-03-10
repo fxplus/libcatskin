@@ -1,0 +1,31 @@
+/*
+#(c)#=====================================================================
+#(c)#
+#(c)#       Copyright 2007-2011 Ex Libris (USA) Inc.
+#(c)#                       All Rights Reserved
+#(c)#
+#(c)#=====================================================================
+
+**          Product : WebVoyage :: confirmation.css
+**          Version : 7.2.0
+**          Created : 29-OCT-2007
+**      Orig Author : Scott Morgan
+**    Last Modified : 19-AUG-2009
+** Last Modified By : Mel Pemble
+*/
+
+.message
+{
+   padding: 0px;
+   left: 30px;
+   text-indent: 20px;
+}
+
+.messageValues
+{
+   padding: 0px;
+   left: 30px;
+   text-indent: 20px;
+   font-weight: bold;
+}
+

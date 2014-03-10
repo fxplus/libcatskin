@@ -1,0 +1,154 @@
+/*
+#(c)#=====================================================================
+#(c)#
+#(c)#       Copyright 2007-2009 Ex Libris (USA) Inc.
+#(c)#                       All Rights Reserved
+#(c)#
+#(c)#=====================================================================
+
+**          Product : WebVoyage :: print brief record css
+**          Version : 7.1.0
+**          Created : 01-NOV-2007
+**      Orig Author : Scott Morgan
+**    Last Modified : 09-MAR-2009
+** Last Modified By : Mel Pemble
+*/
+
+body
+{
+   margin:1px;
+   padding:1px;
+   clear:both;
+   width:99%;
+   font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+.logo
+{
+   margin-bottom:5px;
+}
+
+.bibliographicData
+{
+   clear:both;
+}
+
+.bibRecord
+{
+   border-top:1px solid black;
+   margin:1px;
+   padding:1px;
+   margin-bottom:3px;
+   clear:both;
+   width: 275px;
+}
+
+.bibTitle
+{
+   font-size: 18px;
+   padding: 0px 0px 0px 0px;
+   margin: 0px 0px 0px 0px;
+   width: 250px;
+}
+
+.bibTitle p
+{
+   color: #000000;
+   
+   font-weight: bold;
+}
+
+/*.bibTags,*/.holdingsLabel,.holdingsArea ,.displayHoldings,.oddHoldingsRow
+{
+   margin:0px;
+   padding:0px;
+   clear:both;
+}
+
+.bibTags ul
+{
+   list-style: none;
+   padding: 0px;
+   margin: 0px;
+}
+
+.bibTag
+{
+   margin:1px;
+   padding:1px;
+   clear:both;
+   float:left;
+   display:table-row;
+   width:100%;
+}
+
+.fieldLabelSpan
+{
+   clear:both;
+   color: #000000;
+   font-size: 18px;
+   font-weight: bold;
+   padding: 1px;
+   padding-right: 0px;
+   margin: 0px;
+   border: 0px;
+   text-align: left;
+   white-space: nowrap;
+   width:auto;
+   float:left;
+   display: table-cell;
+}
+
+.subfieldData
+{
+   color: #000000;
+   font-size: 18px;
+   padding: 0px;
+   margin: 0 0 0 2px;
+   border: 0px;
+   text-align: left;
+   width:175px;
+   display: table-cell;
+}
+
+.orange_tb
+{
+   display:none;
+}
+
+h2.nav,h2.navFooter
+{
+   position: absolute;
+   left: -200em;
+}
+.holdingsLabel
+{
+   padding-top:5px;
+}
+.holdingsData
+{
+   display:none;
+}
+.holdingsBottom
+{
+   display:none;
+}
+
+h3
+{
+   font-size: smaller;
+   font-weight: bold;
+   margin-left:185px;
+}
+
+#printFooter
+{
+   border-top: 1px dotted grey;
+   padding-top: 5px;
+   clear:both;
+}
+
+.bkbtn
+{
+   font-weight: bold;
+}

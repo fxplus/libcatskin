@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+#(c)#=====================================================================
+#(c)#
+#(c)#       Copyright 2007-2009 Ex Libris (USA) Inc.
+#(c)#                       All Rights Reserved
+#(c)#
+#(c)#=====================================================================
+-->
+<!--
+**          Product : WebVoyage :: printReceiptConfigHoldings.xml
+**          Version : 7.1.0
+**          Created : 31-JAN-2008
+**      Orig Author : David Sellers, Mel Pemble
+**    Last Modified : 19-OCT-2010
+** Last Modified By : Jamie
+-->
+    <display>
+
+        s<holdingsTags label="Call Number:" notFound="No call number available">
+            <displayTag field="852" indicator1="X"  indicator2="X" subfield="khij" />
+        </holdingsTags>
+
+    </display>
