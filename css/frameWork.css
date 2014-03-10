@@ -21,12 +21,12 @@ html, body {
 
 body{
    width:auto;
-   color : black;
-   background : white;
+   color : #222;
+   background : transparent;
    margin : 0;            /* it's good practice to zero the margin and padding of the body element
                              to account for differing browser defaults */
    padding : 0;
-   text-align : center;   /* this centers the container in IE 5* browsers. The text is then set to
+   text-align : left;   /* this centers the container in IE 5* browsers. The text is then set to
                              the left aligned default in the #container selector */
    /* default font */
    font-family : "Arial Unicode MS", Verdana, Arial, Helvetica, sans-serif;
@@ -36,6 +36,10 @@ body{
 select,input{
    font-family : "Arial Unicode MS", Verdana, Arial, Helvetica, sans-serif;
    font-size : .8em;
+}
+select option {
+  padding: 10px;
+  height: 2em;
 }
 
 .frameWorkUI #pageContainer  {
@@ -50,19 +54,25 @@ select,input{
 }
 
 .frameWorkUI #pageHeader {
-   background : #fff url("../images/img_headerBackground.png") repeat-x left top;
-   padding : 0 0 0 8px;
+   /* background : #fff url("../images/img_headerBackground.png") repeat-x left top; */
    border-bottom : 1px solid #426ab3;
    color : black;
    width:auto;
+   min-height:80px;
+   background-color:#3299b7;
+}
+.frameWorkUI #pageHeader #headerRow:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
 }
 
 .frameWorkUI #mainContent {
    width:auto;
-   margin-top : 1px;
-   margin-bottom : 10px;
-   margin-left:5px;
-   margin-right:5px;
+   padding:30px;
+
    /* remember that padding is the space inside the div box
       and margin is the space outside the div box */
 
@@ -86,11 +96,11 @@ select,input{
 }
 
 .frameWorkUI #pageHeadingTitle {
-   color : #9f175e;
    font-family : "Arial Unicode MS", Verdana, Arial, Helvetica, sans-serif;
-   font-size : 1.2em;
+   font-size : 18pt;
    font-weight : normal;
    margin : 1px;
+   margin-top:10px;
    padding : 1px;
 }
 
@@ -100,31 +110,35 @@ visibility : hidden;
 
 /* accent color */
 #pageHeadingTitle, .resultsHeaderHeader, .help h2, .jumpBarLabelSelected, .jumpBarMiddle .current, .jumpBarMiddle .totalHits {
-   color : #9f1753;
+   color : #0088cc;
 }
 
 /* link colors */
-A:link  {
-   color : #003061;
+a {
+  text-decoration: none;
+}
+a:link  {
+   color : #0088cc;
 }
 
-A:visited {
-   color : #9f1753;
+a:visited {
+   color : #5aa8cf;
 }
 
-A:hover {
-   color : #9f1753;
+a:hover {
+   color : #5aa8cf;
    text-decoration : none;
 }
 
-A:active {
-   color : #9f1753;
+a:active {
+   color : #0071aa;
    text-decoration : none;
 }
 
 .pageHTMLSnippet
 {
    clear:both;
+   margin-top: 30px;
 }
 
 #waitmsg
@@ -177,4 +191,21 @@ A:active {
     filter: alpha(opacity=60);
 }
 
+#searchLinks input[type=reset],
+input[type=reset] {
+  background-color: hsl(345, 54%, 38%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c64263", endColorstr="#952c46");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#c64263), to(#952c46));
+  background-image: -moz-linear-gradient(top, #c64263, #952c46);
+  background-image: -ms-linear-gradient(top, #c64263, #952c46);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c64263), color-stop(100%, #952c46));
+  background-image: -webkit-linear-gradient(top, #c64263, #952c46);
+  background-image: -o-linear-gradient(top, #c64263, #952c46);
+  background-image: linear-gradient(#c64263, #952c46);
+  border-color: #952c46 #952c46 hsl(345, 54%, 34.5%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.23);
+  -webkit-font-smoothing: antialiased;
+}
 

@@ -74,13 +74,14 @@
 }
 #jumpBarNavTop
 {
-   border-bottom: 1px solid #013064; 
+
    margin-bottom: 2px;
+   display:none;
 }
  
 #jumpBarNavBottom
 {
-   border-top: 1px solid #013064; 	
+   border-top: 1px solid #444; 	
    margin-top: 2px; 
 }   
 
@@ -161,13 +162,13 @@
    margin:0px;
    color: #9f175e;
    font-size: 12px;
-   border: 1px solid #013064;
+   border: 1px solid #444;
 }
 
 .jumpBarPrevious, .jumpBarNext, .jumpBarTabLink
 {
    
-   background-color: #013064; 
+   background-color: #444; 
    margin: 0px;
    cursor: pointer;
    white-space: nowrap;
@@ -296,23 +297,23 @@
 #browseHeaderTop .browseHeaderNoImage
 {
    FONT-SIZE: smaller;
-   background-color: #c9e5ff; 
+   background-color: #dfdfdf; 
    
    padding: 0px 0px 30px 0px;
    margin: 0px 0px 0px 0px;
    
-   border-right: 1px solid #c9e5ff;	
+   border-right: 1px solid #dfdfdf;	
 }
    
 #browseHeaderbottom .browseHeaderNoImage
 {
    FONT-SIZE: smaller;
-   background-color: #c9e5ff; 
+   background-color: #dfdfdf; 
    
    padding: 0px 0px 30px 0px;
    margin: 0px 0px 0px 0px;
    
-   border-right: 1px solid #c9e5ff;	
+   border-right: 1px solid #dfdfdf;	
 }
 
 .browseHeaderNoImage
@@ -325,24 +326,24 @@ background-repeat: no-repeat;
 {
    FONT-SIZE: smaller;   
    background:url("../images/line_corner.gif") no-repeat left top;
-   background-color: #c9e5ff; 
+   background-color: #dfdfdf; 
    
    padding: 0px 0px 30px 0px;
    margin: 0px 0px 0px 0px;
    
-   border-right: 1px solid #c9e5ff;
+   border-right: 1px solid #dfdfdf;
 }
    
 #browseHeaderbottom .browseHeader
 {
    FONT-SIZE: smaller;
    background:url("../images/line_corner_btm.gif") no-repeat left top;
-   background-color: #c9e5ff; 
+   background-color: #dfdfdf; 
    
    padding: 0px 0px 30px 0px;
    margin: 0px 0px 0px 0px;
    
-   border-right: 1px solid #c9e5ff;
+   border-right: 1px solid #dfdfdf;
 }
 
    
@@ -581,16 +582,16 @@ background-repeat: no-repeat;
 .yellowBtn
 {
    float:left;
-   background-image: url('../images/btn_yellow_bg.gif'); 
+   /* background-image: url('../images/btn_yellow_bg.gif'); */ 
    
    margin: 0px 0px 0px 0px; 
    padding: 0px 5px 2px 5px;	
 
    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;   
    FONT-SIZE: 12px;   
-   color: #013064;
-   background-color: #fefeca; 
-   border: 0px none  #013064;
+   color: #444;
+   background-color: #fdfdfd; 
+   border: 0px none  #444;
    height: 18px; 
    cursor: pointer;
    white-space: nowrap;   
@@ -600,12 +601,13 @@ background-repeat: no-repeat;
    
 .yellowBtnLeft
 {
-   background:url("../images/btn_yellow_left.gif") no-repeat right top;
+
    float:left;	
    margin: 0px 0px 0px 0px; 
    padding: 0px 0px 0px 0px;
    height: 18px; 
    width: 4px;
+   display:none;
    
 }
    
@@ -617,6 +619,7 @@ background-repeat: no-repeat;
    padding: 0px 0px 0px 0px;
    height: 18px;    
    width: 4px;
+   display:none;
 }
    
 .horzLine
