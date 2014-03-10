@@ -36,7 +36,7 @@ p.noHitsError
 
 #searchForm
 {
-   background: #C9E5FF none repeat scroll 0 0; 
+   background: #dfdfdf none repeat scroll 0 0; 
    border: 1px solid #000;
    clear: left; 
    margin: 0; 
@@ -128,7 +128,7 @@ p.noHitsError
 #searchNav li.on a, #searchNav a:hover
 {
    color: #333;
-   border-bottom: 1px solid #c9e5ff;
+   border-bottom: 1px solid #dfdfdf;
    cursor: pointer;
 }
 
