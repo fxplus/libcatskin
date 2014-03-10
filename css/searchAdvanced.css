@@ -17,12 +17,6 @@
 
 /* searchAdvanced */
 
-#searchArg1 {
-    padding:5px;
-}
-.argument input {
-    padding:2px 5px
-}
 #buildAdvancedSearch
 {
    padding-top: 10px;
@@ -68,11 +62,6 @@
 {
 	padding: 0px 10px 10px 10px;
 	text-align: left;
-}
-
-#searchForm .searchAdvancedInputs label[for=searchArg1]
-{
-  font-size: 1em;
 }
 
 .searchAdvancedInputs .argument label

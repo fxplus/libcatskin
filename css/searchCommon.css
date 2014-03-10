@@ -40,7 +40,7 @@
    padding-left: 3px; 
    padding-top: 6px; 
    padding-bottom: 6px; 
-   background-color: #dfdfdf; 
+   background-color: #c9e5ff; 
    border-bottom: 1px solid #62b3ff; 
    border-right: 1px solid #62b3ff;
 }
@@ -62,7 +62,7 @@
 
 .btnLeft
 {
-
+   background:url("../images/btn_yellow_left.gif") no-repeat right top;
    float:left;	
    height: 18px; 
    width: 4px;
@@ -78,7 +78,7 @@
 
 .btnCenter
 {
-    background:#fdfdfd none repeat scroll 0 0;
+    background:#FEFECA none repeat scroll 0 0;
     border-color:black;
     border-style:solid none;
     border-width:1px medium;

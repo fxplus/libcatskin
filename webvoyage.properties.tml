@@ -306,7 +306,7 @@ page.header.logout.linkText=Logout
 # the username from patron record will be inserted as the first pretext element
 page.header.logout.link.pretext= is logged in
 page.header.logout.link.posttext=
-page.header.logo.image=ui/tomskin/images/webVoyageLogo.jpg
+page.header.logo.image=ui/faldefault/images/webVoyageLogo.jpg
 page.header.logo.link=exit.do
 page.header.logo.linkText=WebVoy\u00E1ge
 page.header.buttons.search.button=Search
@@ -2170,9 +2170,6 @@ mail.subject=Search Results
 #imageServer.scandocAltText=Scan Document
 #imageServer.thumbnailAltText=Thumbnail
 #imageServer.loginRequiredText=**** Login Required ****
-
-
-
 
 
 

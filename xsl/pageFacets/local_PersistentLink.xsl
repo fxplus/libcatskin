@@ -22,11 +22,8 @@ xmlns:page="http://www.exlibrisgroup.com/voyager/webvoyage/page"
 xmlns:fo="http://www.w3.org/1999/XSL/Format">
 <!-- ###################################################################### -->
 <xsl:template name="persistentLink">
-	<div class="persistentlink">
-    <xsl:text disable-output-escaping="yes">&lt;a href="</xsl:text>
-          <xsl:value-of select="concat('http://voyager.falmouth.ac.uk/vwebv/holdingsInfo?bibId=',$bibID)"></xsl:value-of>
-    <xsl:text disable-output-escaping="yes">"&gt; Persistent link &lt;/a&gt;</xsl:text>
-
+	<div class="persistentLink">
+		<b>Persistent URL: </b><xsl:value-of select="concat('http://voyager.falmouth.ac.uk/vwebv/holdingsInfo?bibId=',$bibID)"></xsl:value-of>
 	</div>
 </xsl:template>
 <!-- ###################################################################### -->

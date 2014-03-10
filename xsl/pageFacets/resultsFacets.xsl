@@ -255,7 +255,7 @@
 <xsl:param name="tag"/>
       <div class="resultListCoverImageCell">
 <a href="http://syndetics.com/index.aspx?isbn={$tag}/index.html&amp;client=unifalel&amp;type=rn12">
-<img src="http://syndetics.com/index.aspx?isbn=/SC.GIF&amp;client=unifalel&amp;upc={$tag}" class="resultListCoverImage" onError="this.src='http://voyager.falmouth.ac.uk/vwebv/ui/tomskin/images/no_pic.gif'; this.width='0px';" alt="No picture" />
+<img src="http://syndetics.com/index.aspx?isbn=/SC.GIF&amp;client=unifalel&amp;upc={$tag}" class="resultListCoverImage" onError="this.src='http://voyager.falmouth.ac.uk/vwebv/ui/faldefault/images/no_pic.gif'; this.width='0px';" alt="No picture" />
 </a> 
 </div>
 

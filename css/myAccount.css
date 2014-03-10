@@ -40,7 +40,7 @@
 
 #imageBtnYellowLeft
 {
-
+   background:url("../images/btn_yellow_left.gif") no-repeat right top;
    float:left;
    margin: 0px 0px 0px 0px;
    padding: 2px 0px 0px 1px;
@@ -48,10 +48,10 @@
 
 .btnYellow a
 {
-   COLOR: #444;
+   COLOR: #013064;
    FONT-SIZE: 12px;
-   background-color: #fdfdfd;
-   /* background-image: url('../images/btn_yellow_bg.gif'); */
+   background-color: #fefeca;
+   background-image: url('../images/btn_yellow_bg.gif');
    background-repeat: repeat-x;
    height: 17px;
    cursor: pointer;
@@ -83,26 +83,26 @@
 {
    float: right;
    clear: both;
-   /* border:1px solid #62B3FF; */
+   border: 1px solid #62B3FF;
    background-color: #F0F6FB;
    padding: 5px;
 }
 
 .subTitle
 {
-   COLOR: #444;
+   COLOR: #013064;
    FONT-SIZE: larger;
 }
 
 #availableRequests
 {
-   /* border:1px solid #62B3FF; */
-   background-color: #dfdfdf;
+   border: 1px solid #62B3FF;
+   background-color: #c9e5ff;
 }
 
 #availableRequests #tableAvailableRequests
 {
-   background-color: #dfdfdf;
+   background-color: #c9e5ff;
 }
 
 #availableRequests th
@@ -113,7 +113,7 @@
    padding-left: 3px;
    padding-top: 6px;
    padding-bottom: 6px;
-   background-color: #dfdfdf;
+   background-color: #c9e5ff;
    border-top: 1px solid #62b3ff;
    border-bottom: 1px solid #62b3ff;
    border-left: 1px solid #62b3ff;
@@ -204,10 +204,10 @@
    COLOR: #ffffff;
    FONT-SIZE: 12px;
    FONT-WEIGHT: bold;
-   border-top: 1px none #444;
-   border-bottom: 1px none #444;
-   border-left: 0px none #444;
-   border-right: 0px none #444;
+   border-top: 1px none #013064;
+   border-bottom: 1px none #013064;
+   border-left: 0px none #013064;
+   border-right: 0px none #013064;
    cursor: pointer;
    margin: 0px;
    white-space: nowrap;
@@ -281,7 +281,7 @@
    padding-left: 3px;
    padding-top: 6px;
    padding-bottom: 6px;
-   background-color: #dfdfdf;
+   background-color: #c9e5ff;
    border-bottom: 1px solid #62b3ff;
    border-right: 1px solid #62b3ff;
    /*
@@ -314,7 +314,7 @@
 
 .headerCheckbox, #chargedHeaderCheckbox, #headerPendingCheckbox, #headerCheckboxBooking
 {
-   background-color: #dfdfdf;
+   background-color: #c9e5ff;
    background-image:url(../images/line_side.gif);
    background-repeat:repeat-y;
 }
@@ -363,7 +363,7 @@
    padding-left: 3px;
    padding-top: 6px;
    padding-bottom: 6px;
-   background-color: #dfdfdf;
+   background-color: #c9e5ff;
    /*
    scope: col;
    align: left;
@@ -384,7 +384,7 @@
    padding-left: 3px;
    padding-top: 6px;
    padding-bottom: 6px;
-   background-color: #dfdfdf;
+   background-color: #c9e5ff;
    /*
    scope: col;
    align: left;
@@ -407,7 +407,7 @@
    padding-left: 3px;
    padding-top: 6px;
    padding-bottom: 6px;
-   background-color: #dfdfdf;
+   background-color: #c9e5ff;
    /*
    scope: col;
    align: left;
@@ -429,7 +429,7 @@
    padding-left: 3px;
    padding-top: 6px;
    padding-bottom: 6px;
-   background-color: #dfdfdf;
+   background-color: #c9e5ff;
    /*
    scope: col;
    align: left;
@@ -440,7 +440,7 @@
 
 #cellStartTime, #cellEndTime, #cellConfirmationNumber, #cellBookingType, #cellRoom, #cellEquipmentCount, #cellItemCount
 {
-    background-color:#dfdfdf;
+    background-color:#C9E5FF;
     border-bottom:1px solid #62B3FF;
     border-top:1px solid #62B3FF;
     border-left:1px solid #62B3FF;
@@ -463,8 +463,8 @@
 
 .tableDisplay
 {
-   /* border:1px solid #62B3FF; */
-   background-color: #dfdfdf;
+   border: 1px solid #62B3FF;
+   background-color: #c9e5ff;
    padding: 0px 0px 0px 0px;
    overflow-y: hidden;
    overflow-x: hidden;
@@ -524,13 +524,13 @@
 .yellowBtn
 {
    float:left;
-   /* background-image: url('../images/btn_yellow_bg.gif'); */
+   background-image: url('../images/btn_yellow_bg.gif');
    margin: 0px 0px 0px 0px;
    padding: 0px 5px 2px 5px;
    FONT-SIZE: 12px;
-   color: #444;
-   background-color: #fdfdfd;
-   border: 0px none  #444;
+   color: #013064;
+   background-color: #fefeca;
+   border: 0px none  #013064;
    height: 18px;
    cursor: pointer;
    white-space: nowrap;
@@ -538,7 +538,7 @@
 
 .yellowBtnLeft
 {
-
+   background:url("../images/btn_yellow_left.gif") no-repeat right top;
    float:left;
    margin: 0px 0px 0px 0px;
    padding: 0px 0px 0px 0px;

@@ -1,23 +1,21 @@
 /*********************** Timeout Message ***********************/
 #tcc_timeout_container {
-
-	color: white;
 	position:absolute;
 	top:200px;
 	left:200px;
-	padding:30px;
 	display:none;
 	width:300px;
-	border-radius:10px;
-	background-color:#111;
-	font-size: 1.2em;
+	border:2px solid blue;
+	background-color:yellow;
+	font: 12px sans-serif;
 	opacity: .80; /* Standard */
 	filter: alpha(opacity=80); /* MSIE */
 	z-index:5;
 }
 
 #tcc_timeout_title {
-	color: white;
+	background-color:blue;
+	color:yellow;
 	text-align:center;
 	cursor:move;
 }

@@ -39,7 +39,6 @@
    width: 1%;
    font-size: smaller;
    font-weight: bold;
-   display:none;
 }
 
 /**********************
@@ -48,31 +47,26 @@
  
 .actionBox
 {
-   background-color:#dfdfdf;
-   /* border:1px solid #62B3FF; */
+   background-color:#C9E5FF;
+   border:1px solid #62B3FF;
    float:right;
    font-size:smaller;
    margin:0px 0px 0px 3px;
-   padding: 20px;
+   padding-bottom: 5px;
    width:250px;
 }
 
 .actionBox ul
 {
    list-style: none; 
-   list-style-image: none;
    padding: 0;
-   margin-top: 5px;
-   margin-bottom: 20px;
+   margin: 0px 0px 0px 25px;   
 }
 
 .actionBox ul li
 {
-  list-style: none; 
-  list-style-image: none;
    padding: 0;
-   margin: 0;
-   line-height: 1.5;   
+   margin: 0;   
 }
 
 .actionBox h3
@@ -94,7 +88,7 @@
 
 .thisItem 
 {
-   /* border-bottom: 1px solid #62b3ff; */ 
+   border-bottom: 1px solid #62b3ff; 
    padding: 5px 0px 15px 0px;
    margin: 0px 0px 0px 0px;   
 }
@@ -102,7 +96,7 @@
 .thisItem label, .actions label, .moreInfo label
 {
    padding: 0px 0px 0px 0px;
-   margin: 0px 0px 0px 0px;   
+   margin: 0px 0px 0px 5px;   
 }
 
 .thisItem ul label
@@ -192,11 +186,7 @@
    width: 1%;
 }
 
-.displayHoldings {
-  border: 1px solid #999;
-  padding: 10px;
-  background-color: #EBEBEB;
-}
+
 
 .displayHoldings .fieldData
 {
@@ -306,7 +296,7 @@
 
 .holdingsLabel
 {
-   margin-top: 40px;
+   margin-top: 65px;
 }
 
 .holdingsData
@@ -322,7 +312,7 @@
    font-weight: bold;
    padding: 0px -1px 0px 3px;
    margin: 0px 0px 5px 0px; 
-
+   border-bottom: 1px solid #000000; 
    width: 100%;
 }
 
@@ -345,6 +335,7 @@
 {
    padding: 0px 0px 0px 0px;
    margin: 5px 0px 0px 0px; 
+   border-top: 1px solid #000000; 
 }
 
 .holdingsSummaryHeading
@@ -383,7 +374,6 @@
    right: 999em;
    margin:0;
    padding:0;
-   display:none;
 }
 
 
@@ -439,36 +429,5 @@
 {
    padding-left: 5px;
 }
-.persistentlink a {
-    background-color: hsl(346, 90%, 32%) !important;
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f21649", endColorstr="#9b082a");
-  background-image: -khtml-gradient(linear, left top, left bottom, from(#f21649), to(#9b082a));
-  background-image: -moz-linear-gradient(top, #f21649, #9b082a);
-  background-image: -ms-linear-gradient(top, #f21649, #9b082a);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f21649), color-stop(100%, #9b082a));
-  background-image: -webkit-linear-gradient(top, #f21649, #9b082a);
-  background-image: -o-linear-gradient(top, #f21649, #9b082a);
-  background-image: linear-gradient(#f21649, #9b082a);
-  border-color: #9b082a #9b082a hsl(346, 90%, 27%);
-  color: #fff !important;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
-  -webkit-font-smoothing: antialiased;
-  padding: 10px 15px;
-  color: white;
-  text-decoration: none;
-}
-.persistentlink {
-  margin-bottom: 20px;
-}
-.refworks img {margin-top: 10px;}
 
-.item-available .subfieldData {
-  color: #59b359;
-  font-weight: bold;
-}
 
-h1 {
-  font-size: 1.4em;
-  margin-bottom: 30px
-}

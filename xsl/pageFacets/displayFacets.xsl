@@ -102,7 +102,7 @@
 						</xsl:for-each>
 		<span class="recordLinkBullet">·</span>
 		<a href="javascript:webvoyager.refworks.importBib('?id={$bibID}&amp;id_count=1');"
-		title="Export to RefWorks" class="refworks">
+		title="Export to RefWorks">
 		<img style="vertical-align:middle;border:none" src="{$image-loc}refworks.gif"/>
 		</a>
 	   		<div id="googleBooksRow">
@@ -112,7 +112,29 @@
 
 				</div>							
 			</xsl:for-each>
-		
+		<!-- ############################################################################################# -->
+<!-- ## TALIS ASPIRE SECTION ## -->
+
+	<xsl:choose>
+      		<xsl:when test="string-length($ISBN)">
+			<!-- Only call js file if needed -->
+		   	<script type="text/javascript" src="{$jscript-loc}talisReadingLists.js"/>
+
+			<div class="actions">
+			<label id="talisRow" style="display:none">Talis Reading Lists</label>
+			<ul title="TalisLists">
+				<span id="output" style="font-size:small"></span>
+			</ul>
+			</div>
+			
+			<!--<a href="javascript:getTalis('{$ISBN}');" title="getTalis">HERE</a>-->
+			<!--<script type="text/javascript">getTalis('0061766089');</script>-->
+			<xsl:call-template name="TalisList"/>
+		</xsl:when>
+		<xsl:otherwise>
+		</xsl:otherwise>
+   	</xsl:choose>
+<!-- ########################################################################################  -->	
 		<ul title="QR Code">
 			<li><span class="recordLinkBullet"> </span>
 				<xsl:call-template name="QRCode">

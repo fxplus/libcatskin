@@ -61,10 +61,10 @@
 			<xsl:value-of select="$new_line"/>
 			<xsl:value-of select="$new_line"/>
 ---------------------------------------------------------------
-Institution Name:<xsl:value-of select="$tab"/>University College Falmouth and University of Exeter Cornwall Campus 
-Institution Address:<xsl:value-of select="$tab"/>Learning Resources Centre, Tremough Campus, Treliever Road, Penryn, TR10 9EZ
-Institution Web Site:<xsl:value-of select="$tab"/>http://library.falmouth.ac.uk
-Institution Email:<xsl:value-of select="$tab"/>library@falmouth.ac.uk
+Institution Name:<xsl:value-of select="$tab"/>Falmouth University and University of Exeter Penryn Campus 
+Institution Address:<xsl:value-of select="$tab"/>Learning Resources Centre, Penryn Campus, Treliever Road, Penryn, TR10 9EZ
+Institution Web Site:<xsl:value-of select="$tab"/>http://library.fxplus.ac.uk
+Institution Email:<xsl:value-of select="$tab"/>library@fxplus.ac.uk
 Institution Phone:<xsl:value-of select="$tab"/>01326 370441
 			
 		</xsl:for-each>
