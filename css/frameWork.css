@@ -60,6 +60,7 @@ select option {
    width:auto;
    min-height:80px;
    background-color:#3299b7;
+   background-color:#21364b;
 }
 .frameWorkUI #pageHeader #headerRow:after {
     content: ".";
