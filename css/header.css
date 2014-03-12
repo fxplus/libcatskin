@@ -60,6 +60,7 @@
 #patronCol
 {
    padding:10px 10px 0 0;
+   margin-top:30px;
    overflow:visible;
    float: right;
    position:relative;
@@ -78,7 +79,6 @@
 #pageHeader #headerPatron a
 {
    padding: 5px 10px 10px 10px;
-   margin-top:30px;
 display: inline-block;
 padding: 4px 12px;
 margin-bottom: 0;
