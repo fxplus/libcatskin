@@ -43,7 +43,7 @@
             <div id="headerHelp" title="{$headerText/help}">
                <span>
              <a href="{page:element[@nameId='page.header.help.link']/page:URL}" target="help">
-                     <xsl:value-of select="page:element[@nameId='page.header.help.link']/page:linkText"/>
+                     <xsl:value-of select="page:element[@nameId='page.header.help.link']"/>
                   </a>&#160;<xsl:value-of select="page:element[@nameId='page.header.help.link']/page:postText"/>
                </span>
             </div>
