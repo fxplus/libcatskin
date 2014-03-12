@@ -34,21 +34,15 @@
 
 #headerTabs
 {
-   margin-top: 20px;
-   margin-bottom: 12px;
+   margin-top: 60px;
+   padding-bottom: 12px;
 
    position:relative;
    float:right;
    clear:both;
    z-index: 1;
 }
-#headerTabs:after {
-   content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
-}
+
 #headerTabs .navbar
 {
    margin-left: 7em;
