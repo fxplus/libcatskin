@@ -72,11 +72,12 @@
    white-space:nowrap;
    float:right;
    text-transform: lowercase;
+   color: white;
 }
 
 #headerPatron .logoutPreText
 {
-   font-weight: bold;
+   font-weight: normal;
 }
 
 #headerHelp
