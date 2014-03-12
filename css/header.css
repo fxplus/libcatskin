@@ -16,7 +16,7 @@
 
 #headerRow
 {
-   width: 99%;  /* this will create a container 99% of the browser width */
+   width: 100%;  /* this will create a container 99% of the browser width */
    margin: 0;   /* the auto margins (in conjunction with a width) center the page */
 }
 #logo
@@ -204,7 +204,7 @@
 {
    text-align:left;
    font-size: .8em;
-   color: #333;
+   color: #eee;
    display: block;
    width: 425px;
    margin-top: 15px;
