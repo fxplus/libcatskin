@@ -101,7 +101,7 @@ select option {
 }
 
 .frameWorkUI #pageFooter, .push {
-    height: 74px;
+    height: 100px;
     clear:both;
 }
 
