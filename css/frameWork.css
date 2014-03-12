@@ -98,6 +98,7 @@ select option {
   background-repeat: no-repeat;
   height: 47px;
   width: 263px;
+  color: #004855; /* there is a full-stop placeholder */
 }
 
 .frameWorkUI #pageFooter, .push {
