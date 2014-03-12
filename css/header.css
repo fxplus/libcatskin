@@ -60,7 +60,8 @@
 #patronCol
 {
    padding:10px 10px 0 0;
-   margin-top:30px;
+   margin-top: 30px;
+   margin-right: 30px;
    overflow:visible;
    float: right;
    position:relative;
