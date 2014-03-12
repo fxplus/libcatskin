@@ -78,7 +78,7 @@
 #headerPatron a
 {  
    margin:0px 0px 0px 10px ;
-   padding:10px;
+   padding: 5px 10px 10px 10px;
    background-color: hsl(195, 60%, 35%) !important;
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2d95b7", endColorstr="#23748e");
