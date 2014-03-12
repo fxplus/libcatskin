@@ -85,7 +85,7 @@ select option {
    border-top : 1px solid #333;
    /* this padding matches the left alignment of the elements
    in the divs that appear above it. */
-   padding : 0 10px;
+   padding : 10px 30px 40px 30px;
    background : #ccc;
    background: #004855 url('http://library.fxplus.ac.uk/sites/all/themes/custom/fx_themes/plus_subthemes/library_plus/images/wave.png') repeat-x scroll bottom center;
    color : black;
