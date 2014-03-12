@@ -42,7 +42,8 @@
             <xsl:call-template name="loginLogout"/>
             <div id="headerHelp" title="{$headerText/help}">
                <span>
-             <a href="page:element[@nameId='page.header.help.link']/page:linkurl" target="help">
+             <!--<a href="{page:element[@nameId='page.header.help.link']/page:URL}" target="help">-->
+             <a href="http://library.fxplus.ac.uk/node/28217" target="help">
                      <xsl:value-of select="page:element[@nameId='page.header.help.link']/page:linkText"/>
                   </a>&#160;<xsl:value-of select="page:element[@nameId='page.header.help.link']/page:postText"/>
                </span>
