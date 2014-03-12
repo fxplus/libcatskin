@@ -92,6 +92,12 @@ select option {
    clear:both;
    width:auto;
 }
+.frameWorkUI #pageFooter .libraryLink  {
+  background-image: url("http://library.fxplus.ac.uk/sites/all/themes/custom/fx_themes/plus/images/logos.png");
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+}
+
 .frameWorkUI #pageFooter, .push {
     height: 74px;
     clear:both;
