@@ -36,6 +36,7 @@
 {
    margin-top: 60px;
    padding-bottom: 12px;
+   width:100%;
 
    position:relative;
    float:right;
@@ -45,10 +46,10 @@
 
 #headerTabs .navbar
 {
-   margin-left: 7em;
-   margin-right: 10em;
+   float:right;
    margin:0;
    position:relative;
+   background-color: #008da8;
 }
 
 #patronCol
