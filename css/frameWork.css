@@ -87,7 +87,7 @@ select option {
    in the divs that appear above it. */
    padding : 0 10px;
    background : #ccc;
-   background: #004855 url('../images/wave.png') repeat-x scroll bottom center;
+   background: #004855 url('http://library.fxplus.ac.uk/sites/all/themes/custom/fx_themes/plus_subthemes/library_plus/images/wave.png') repeat-x scroll bottom center;
    color : black;
    clear:both;
    width:auto;
