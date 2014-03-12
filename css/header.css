@@ -18,7 +18,7 @@
 {
    width: 100%;  /* this will create a container 99% of the browser width */
    margin: 0;   /* the auto margins (in conjunction with a width) center the page */
-   background-image: url("http://library.fxplus.ac.uk/sites/all/themes/custom/fx_themes/plus/images/logos.png");
+   background-image: url("ui/libcatskin/images/unilogos.png");
    background-position: 30px right;
    background-repeat: no-repeat;
 }
