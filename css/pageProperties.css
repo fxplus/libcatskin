@@ -39,7 +39,8 @@
 .instructionText
 {
 	font-size: .75em;
-	font-style: italic;
+	font-style: normal;
+   margin-bottom: 20px;
 }
 
 .uiLabelRef
